@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyberpunk Edgerunners</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <img class="logo navbar-brand" src="images/favicon.png">
+          <a class="navbar-brand">Cyberpunk Edgerunners Documentation</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="login/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="jumbotron int">
+      <div class="container text-center">
+        <h1>Here is the Amazing World of Cyberpunk Edgerunners</h1>      
+        <p>Here is just a couple thing to show you...</p>
+      </div>
+    </div>
+
+  <!-- SlideShow -->
+  <div class="slideshow-container jumbotron">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="same-slide" src="images/img_1.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="same-slide" src="images/img_2.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="same-slide" src="images/img_3.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  <br><br>
+  
+  <footer class="container-fluid text-center">
+    <p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Website created by <a href="about.html">Nonexistent </a><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></p>
+  </footer>
+
+  <!-- SlideShow -->
+  <script src="script.js"></script>
+
+</body>
+</html> 
